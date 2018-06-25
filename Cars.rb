@@ -9,6 +9,7 @@ class Cars
 
   def stereo(car_stereo)
     @stereo = car_stereo
+    
 end
 
 toyota = Cars.new("camry", "toyota", "1997")
