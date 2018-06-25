@@ -1,0 +1,2 @@
+def periods_properties
+  
