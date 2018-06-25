@@ -7,10 +7,12 @@ class Cars
     puts "I love my new #{year}. It's an awesome model - a nice #{model}. It's by #{make}."
   end
 
+  #this is setting it
   def stereo(car_stereo)
     @stereo = car_stereo
   end
-  
+
+  #this is getting it
   def stereo
     @stereo
   end
