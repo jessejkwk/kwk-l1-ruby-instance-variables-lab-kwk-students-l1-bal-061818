@@ -1,6 +1,6 @@
 class Cars
 
-  #for each instance, now you can change things within a template
+  #you can access that variable without creating a class
   attr_accessor :stereo
 
   def initialize(model, make, year)
