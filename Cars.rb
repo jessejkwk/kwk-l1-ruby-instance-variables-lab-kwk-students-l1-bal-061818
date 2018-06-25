@@ -10,6 +10,7 @@ class Cars
   def stereo(car_stereo)
     @stereo = car_stereo
   end
+  
   def stereo
     @stereo
   end
