@@ -8,4 +8,4 @@ class Cars
   end
 end
 
-Cars.new = ("camry", "toyota", "1997")
+toyota = Cars.new("camry", "toyota", "1997")
