@@ -30,4 +30,5 @@ prius = Cars.new("prius", "toyota", "2011")
 prius.stereo = "Vimeo"
 
 puts "Lily's car has a #{prius.stereo}"
-chevy = Cars.new("Tahoe", "")
+chevy = Cars.new("Tahoe", "Chevy", "2000")
+Cars.carscountputs Cars.count
