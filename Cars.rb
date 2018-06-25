@@ -1,7 +1,7 @@
 class Cars
   def initialize
-    @make = 
-    @model = 
+    @make
+    @model
 
   end
 end
