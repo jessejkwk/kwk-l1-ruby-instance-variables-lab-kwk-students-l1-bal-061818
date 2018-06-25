@@ -1,4 +1,6 @@
 class Cars
+
+  #for each instance, now you can change things within 
   attr_accessor :stereo
 
   def initialize(model, make, year)
