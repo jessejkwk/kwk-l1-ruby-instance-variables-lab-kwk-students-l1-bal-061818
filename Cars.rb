@@ -1,10 +1,11 @@
 class Cars
-  attr_accessor 
+  attr_accessor :stereo
+  
   def initialize(model, make, year)
     @make = make
     @model = model
     @year = year
-
+    @@carscount += 1
     puts "I love my new #{year}. It's an awesome model - a nice #{model}. It's by #{make}."
   end
 
