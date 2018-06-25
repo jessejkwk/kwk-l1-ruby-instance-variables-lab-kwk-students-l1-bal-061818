@@ -21,3 +21,4 @@ end
 toyota = Cars.new("camry", "toyota", "1997")
 tesla = Cars.new("fastest one", "tesla", "2000")
 prius = Cars.new("prius", "toyota", "2011")
+prius = 
