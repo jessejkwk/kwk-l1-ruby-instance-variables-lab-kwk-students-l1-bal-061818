@@ -1,4 +1,5 @@
 class Cars
+  attr_accessor 
   def initialize(model, make, year)
     @make = make
     @model = model
@@ -23,4 +24,4 @@ tesla = Cars.new("fastest one", "tesla", "2000")
 prius = Cars.new("prius", "toyota", "2011")
 prius.stereo = "Vimeo"
 
-puts "Lily's car has a #{prius.stereo}""
+puts "Lily's car has a #{prius.stereo}"
