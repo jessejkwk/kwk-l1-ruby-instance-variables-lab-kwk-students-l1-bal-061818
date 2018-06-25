@@ -6,6 +6,9 @@ class Cars
 
     puts "I love my new #{year}. It's an awesome model - a nice #{model}. It's by #{make}."
   end
+
+  def stereo(car_stereo)
+    @stereo = car_stereo
 end
 
 toyota = Cars.new("camry", "toyota", "1997")
