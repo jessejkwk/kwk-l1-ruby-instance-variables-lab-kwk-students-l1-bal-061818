@@ -1,7 +1,7 @@
 class Cars
   def initialize(model, make, year)
-    @make
-    @model
-
+    @make = make
+    @model = model
+    @year = year
   end
 end
