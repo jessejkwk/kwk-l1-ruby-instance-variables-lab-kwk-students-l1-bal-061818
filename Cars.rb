@@ -1,5 +1,5 @@
 class Cars
-  def initialize(model, make)
+  def initialize(model, make, year)
     @make
     @model
 
