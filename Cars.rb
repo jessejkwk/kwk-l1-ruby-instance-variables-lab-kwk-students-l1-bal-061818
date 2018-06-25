@@ -9,3 +9,4 @@ class Cars
 end
 
 toyota = Cars.new("camry", "toyota", "1997")
+tesla = Cars.new("fastest one", "tesla", "2000")
