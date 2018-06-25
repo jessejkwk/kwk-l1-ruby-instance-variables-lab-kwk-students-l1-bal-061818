@@ -2,6 +2,7 @@ class Cars
 
   #you can access that variable without creating a class
   attr_accessor :stereo
+  @@carscount = 0
 
   def initialize(model, make, year)
     @make = make
