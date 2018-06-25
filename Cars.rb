@@ -20,7 +20,8 @@ class Cars
   end
 
   def self.carscount
-    @@
+    @@carscount
+  end
 end
 
 toyota = Cars.new("camry", "toyota", "1997")
@@ -29,4 +30,4 @@ prius = Cars.new("prius", "toyota", "2011")
 prius.stereo = "Vimeo"
 
 puts "Lily's car has a #{prius.stereo}"
-
+chevy = Cars.new("Tahoe", "")
